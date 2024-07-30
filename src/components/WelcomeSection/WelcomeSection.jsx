@@ -1,0 +1,16 @@
+// WelcomeSection.js
+export default function WelcomeSection() {
+  return (
+    <div className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed h-screen flex items-center justify-center flex-col text-center p-6'>
+      <h1 className='text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-sans'>
+        Welcome to Delicious Food
+      </h1>
+      <p className='text-white text-sm sm:text-base md:text-lg lg:text-xl font-merriweather'>
+        Discover our wide variety of fresh, local, <br />
+        and sustainably sourced food options.
+        Enjoy our delicious treats and indulge in the <br />
+        best in our culinary world.
+      </p>
+    </div>
+  )
+}
