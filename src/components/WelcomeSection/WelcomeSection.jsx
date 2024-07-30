@@ -11,6 +11,9 @@ export default function WelcomeSection() {
         Enjoy our delicious treats and indulge in the <br />
         best in our culinary world.
       </p>
+      <button className='bg-transparent border border-white rounded-full px-8 py-3 text-lg text-white font-semibold hover:bg-white hover:text-black transition duration-300 mt-10 min-w-[200px]'>
+        Menu
+      </button>
     </div>
   )
 }
