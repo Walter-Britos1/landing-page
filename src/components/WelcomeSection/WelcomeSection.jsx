@@ -1,4 +1,3 @@
-// WelcomeSection.js
 export default function WelcomeSection() {
   return (
     <div className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed h-screen flex items-center justify-center flex-col text-center p-6'>
