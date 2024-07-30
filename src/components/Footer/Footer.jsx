@@ -42,8 +42,8 @@ export default function Footer() {
         
         {/* Iconos de Redes Sociales */}
         <div className='flex justify-center mb-16'>
-          <img src={facebookIcon} alt="Facebook" className='w-8 h-8 mr-4 hover:opacity-75' />
-          <img src={instagramIcon} alt="Instagram" className='w-8 h-8 hover:opacity-75' />
+          <img src={facebookIcon} alt="Facebook" className='w-8 h-8 mr-4 cursor-pointer hover:opacity-75' />
+          <img src={instagramIcon} alt="Instagram" className='w-8 h-8 cursor-pointer hover:opacity-75' />
         </div>
 
         {/* Derechos Reservados y Políticas */}
