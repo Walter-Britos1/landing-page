@@ -3,6 +3,7 @@ import CatalogSection from './components/CatalogSection/CatalogSection';
 import Home from './components/Home/Home';
 import Footer from './components/Footer/Footer';
 import NavBar from './components/NavBar/NavBar';
+import ContantSection from './components/ContantSection/ContantSection';
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/catalog' element={<CatalogSection />} />
+        <Route path='/contact' element={<ContantSection />} />
       </Routes>
       <Footer />
     </>
