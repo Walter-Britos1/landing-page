@@ -4,7 +4,7 @@ import dumplingsIcon from '../../assets/dumplings.svg';
 
 export default function InfoSection() {
   return (
-    <div className='bg-white mt-10 mb-10 py-12 px-4 md:px-8'>
+    <div className='mt-10 mb-10 py-12 px-4 md:px-8'>
       {/* Contenedor para el carrusel en móviles */}
       <div className='block md:hidden overflow-x-auto snap-x snap-mandatory'>
         <div className='flex flex-nowrap space-x-4 p-4'>

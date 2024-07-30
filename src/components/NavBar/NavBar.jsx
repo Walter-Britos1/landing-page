@@ -30,7 +30,7 @@ export default function NavBar() {
           {isOpen ? '✖' : '☰'}
         </button>
       </div>
-      <div 
+      <div
         className={`md:hidden transition-all duration-300 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
       >
         <div className='flex flex-col items-center space-y-4 mt-4'>
