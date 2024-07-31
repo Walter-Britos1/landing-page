@@ -46,4 +46,3 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
 ## 📬 Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en abrir un issue o contactarme a través de [mi email](mailto:walterbritos418@gmail.com).
-
