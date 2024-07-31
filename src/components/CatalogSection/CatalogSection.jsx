@@ -1,11 +1,14 @@
 import Card from '../Card/Card';
 import { useMeals } from '../../api/mealApi';
+import Loading from '../Loading/Loading';
 
 export default function CatalogSection() {
   const { categories, loading, error } = useMeals();
 
   if (loading) {
-    return <div className='flex justify-center items-center h-screen'>Loading...</div>;
+    return <div className='bg-black bg-opacity-80 flex justify-center items-center h-screen'>
+      <Loading />
+    </div>;
   }
 
   if (error) {
