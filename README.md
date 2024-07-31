@@ -40,6 +40,8 @@ Para instalar y ejecutar el proyecto localmente, sigue estos pasos:
    ```bash
    npm run dev
 
+5. **El proyecto se abrirá en tu navegador en**: http://localhost:5173/
+
 
 ## 📬 Contacto
 
