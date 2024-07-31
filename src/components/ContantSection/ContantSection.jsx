@@ -6,7 +6,7 @@ export default function ContactSection() {
           Contact Us
         </h1>
         <form className='space-y-6'>
-          <div className='flex flex-col md:flex-row md:space-x-4'>
+          <div className='flex flex-col md:flex-row md:space-x-4 space-y-4 md:space-y-0'>
             <div className='flex-1'>
               <input
                 type="text"
