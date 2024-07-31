@@ -6,7 +6,7 @@ export default function CatalogSection() {
   const { categories, loading, error } = useMeals();
 
   if (loading) {
-    return <div className='bg-black bg-opacity-80 flex justify-center items-center h-screen'>
+    return <div className='bg-black bg-opacity-60 flex justify-center items-center h-screen'>
       <Loading />
     </div>;
   }

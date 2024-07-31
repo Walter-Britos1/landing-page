@@ -10,7 +10,7 @@ export default function NavBar() {
   };
 
   return (
-    <nav className='bg-black bg-opacity-90 text-white py-4'>
+    <nav className='bg-black bg-opacity-95 text-white py-4'>
       <div className='container mx-auto flex justify-between items-center px-4'>
         <div className='flex items-center'>
           <Link to='/' className='hover:text-gray-400 flex items-center' onClick={handleLinkClick}>
