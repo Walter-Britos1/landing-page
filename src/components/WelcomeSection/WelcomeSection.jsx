@@ -1,4 +1,4 @@
-import backgroundImage from './src/assets/background.jpg';
+import backgroundImage from '../../assets/background.jpg';
 
 export default function WelcomeSection() {
   return (
