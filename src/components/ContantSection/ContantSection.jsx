@@ -1,6 +1,12 @@
+import backgroundImage from '../../assets/background.jpg';
+
 export default function ContactSection() {
   return (
-    <div className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed py-16 px-4 mb-[-80px]'>
+    <div 
+    style={{
+      backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
+    }}
+     className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed py-16 px-4 mb-[-80px]'>
       <div className='container mx-auto max-w-4xl bg-black bg-opacity-50 p-8 rounded-lg shadow-lg'>
         <h1 className='text-3xl font-bold mb-6 text-center text-white'>
           Contact Us
