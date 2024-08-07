@@ -1,6 +1,12 @@
 export default function WelcomeSection() {
   return (
-    <div className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed h-screen flex items-center justify-center flex-col text-center p-6'>
+    <div
+      style={{
+        backgroundImage:
+          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/background.jpg')",
+      }}
+      className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed h-screen flex items-center justify-center flex-col text-center p-6'
+    >
       <h1 className='text-white text-3xl mt-[-65px] sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 font-sans'>
         Welcome to Delicious Food
       </h1>
@@ -14,5 +20,5 @@ export default function WelcomeSection() {
         Menu
       </button>
     </div>
-  )
+  );
 }
