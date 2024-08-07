@@ -1,9 +1,10 @@
+import backgroundImage from './src/assets/background.jpg';
+
 export default function WelcomeSection() {
   return (
     <div
       style={{
-        backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('./src/assets/background.jpg')",
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${backgroundImage})`,
       }}
       className='bg-welcome-bg-overlay bg-cover bg-center bg-fixed h-screen flex items-center justify-center flex-col text-center p-6'
     >
